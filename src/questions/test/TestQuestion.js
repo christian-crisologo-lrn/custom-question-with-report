@@ -1,6 +1,6 @@
-let CQ_PREFIX = "lrn-test-question";
+const CQ_PREFIX = "lrn-test-question";
 
-class TestQuestion {
+class CustomQuestion {
   constructor(init, lrnUtils) {
     this.init = init;
     this.events = init.events;
@@ -107,5 +107,5 @@ class TestQuestion {
 }
 
 LearnosityAmd.define([], () => ({
-  Question: TestQuestion,
+  Question: CustomQuestion,
 }));
