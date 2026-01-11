@@ -33,7 +33,7 @@ class CustomQuestion {
   }
 
   renderComponent(options = {}) {
-    const container = this.el.querySelector(`.${PREFIX}-root`);
+    const container = this.el.querySelector(`.${CQ_PREFIX}-root`);
 
     container.innerHTML = `
       <div>
