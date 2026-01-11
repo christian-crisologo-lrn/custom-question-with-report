@@ -1,4 +1,4 @@
-const PREFIX = "lrn-test-question";
+let PREFIX = "lrn-test-question";
 
 class TestQuestion {
   constructor(init, lrnUtils) {
