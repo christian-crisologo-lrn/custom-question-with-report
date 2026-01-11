@@ -1,4 +1,4 @@
-let PREFIX = "lrn-test-question";
+let CQ_PREFIX = "lrn-test-question";
 
 class TestQuestion {
   constructor(init, lrnUtils) {
@@ -22,8 +22,8 @@ class TestQuestion {
 
   render() {
     this.el.innerHTML = `
-      <div class="${PREFIX} lrn-response-validation-wrapper">
-        <div class="${PREFIX}-root"></div>
+      <div class="${CQ_PREFIX} lrn-response-validation-wrapper">
+        <div class="${CQ_PREFIX}-root"></div>
       </div>
     `;
 
